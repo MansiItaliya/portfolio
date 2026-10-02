@@ -1,0 +1,29 @@
+# Target & Build Output
+target/
+*.jar
+*.war
+*.ear
+frontend/dist/
+frontend/node_modules/
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Logs
+*.log
+logs/
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.pem
+
+# Maven Wrapper & OS artifacts
+.mvn/wrapper/maven-wrapper.jar
+.DS_Store
+Thumbs.db
