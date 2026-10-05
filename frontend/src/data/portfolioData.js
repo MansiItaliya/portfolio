@@ -35,7 +35,7 @@ export const aboutData = {
     },
     {
       title: "Security Architecture",
-      description: "ImplementiFinTechng stateless JWT auth, OAuth2, role-based access control, and password hashing."
+      description: "Implementing stateless JWT auth, OAuth2, role-based access control, and password hashing."
     },
     {
       title: "Database Engineering",
