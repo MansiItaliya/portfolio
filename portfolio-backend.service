@@ -11,10 +11,10 @@ Restart=always
 RestartSec=10
 
 Environment=PORTFOLIO_SERVER_PORT=8080
-Environment=PORTFOLIO_OWNER_EMAIL=owner@example.com
+Environment=PORTFOLIO_OWNER_EMAIL=mansiitaliya001@gmail.com
 Environment=SPRING_MAIL_HOST=smtp.gmail.com
 Environment=SPRING_MAIL_PORT=587
-Environment=SPRING_MAIL_USERNAME=your-email@gmail.com
+Environment=SPRING_MAIL_USERNAME=mansiitaliya001@gmail.com
 Environment=SPRING_MAIL_PASSWORD=your-app-password
 
 StandardOutput=journal

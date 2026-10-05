@@ -112,7 +112,7 @@ export default function Contact() {
                   Contact Information
                 </h3>
                 <p className="text-slate-300 text-sm leading-relaxed">
-                  I am available for senior Java backend engineering roles, microservice migrations, and technical consulting.
+                  I am available for Java backend engineering roles, microservice migrations, and technical consulting.
                 </p>
 
                 <div className="space-y-4 pt-2">

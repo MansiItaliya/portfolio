@@ -1,17 +1,17 @@
 export const developerInfo = {
-  name: "Java Backend Developer",
-  role: "Senior Java Backend Engineer & Architect",
+  name: "Mansi Italiya",
+  role: "Java Backend Engineer & Architect",
   title: "Java Backend Developer",
   subtitle: "Building scalable, secure and production-ready backend systems with Java and Spring Boot.",
   bio: "Passionate software engineer specializing in resilient Java microservices, high-throughput REST APIs, Spring Boot architecture, relational database design, and cloud deployments. Proven track record of architecting mission-critical production backends supporting thousands of concurrent transactions.",
-  status: "Available for Senior Roles & Architecture Consulting",
-  github: "https://github.com",
-  linkedin: "https://linkedin.com",
-  email: "backend.dev@example.com",
+  status: "Available for Roles & Architecture Consulting",
+  github: "https://github.com/MansiItaliya/",
+  linkedin: "https://www.linkedin.com/in/mansiitaliya",
+  email: "mansiitaliya001@gmail.com",
   location: "Remote / Worldwide",
   stats: [
-    { label: "Years Experience", value: "5+" },
-    { label: "Production Services", value: "30+" },
+    { label: "Years Experience", value: "1+" },
+    { label: "Production Services", value: "3+" },
     { label: "API Requests / Day", value: "10M+" },
     { label: "Uptime Commitment", value: "99.99%" }
   ]
@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphs: [
     "I am a specialized Java Backend Developer focused on designing and delivering enterprise-grade backend infrastructure. My core expertise centers on Java 21, Spring Boot, Spring Security, database optimization, and cloud-native containerized deployments.",
     "Over the years, I have architected and maintained end-to-end backend ecosystems handling complex financial transactions, real-time push notification pipelines, AI model integration workers, and subscription management platforms across iOS, Android, and Web clients.",
-    "I prioritize clean architecture, domain-driven design, comprehensive unit/integration testing, strict security standards (OAuth2, JWT, RBAC), and robust automated CI/CD deployment pipelines."
+    "I prioritize clean architecture, domain-driven design, comprehensive unit/integration testing, strict security standards (OAuth2, JWT), and Handled production deployment."
   ],
   pillars: [
     {
@@ -35,7 +35,7 @@ export const aboutData = {
     },
     {
       title: "Security Architecture",
-      description: "Implementing stateless JWT auth, OAuth2, role-based access control, and password hashing."
+      description: "ImplementiFinTechng stateless JWT auth, OAuth2, role-based access control, and password hashing."
     },
     {
       title: "Database Engineering",
@@ -43,7 +43,7 @@ export const aboutData = {
     },
     {
       title: "Integrations & APIs",
-      description: "Integrating Stripe, Apple In-App Purchases, Firebase, OpenAI API, and email providers."
+      description: "Integrating Stripe, Apple In-App Purchases, Firebase, AI API, and email providers."
     },
     {
       title: "Cloud & DevOps",
@@ -54,54 +54,54 @@ export const aboutData = {
 
 export const experienceData = [
   {
-    company: "FinTech Systems Corp",
-    position: "Senior Java Backend Engineer",
-    duration: "2023 - Present",
-    location: "San Francisco, CA (Remote)",
+    company: " Slash Star",
+    position: "Java Backend Engineer",
+    duration: "2025 - Present",
+    location: "Surat, Gujarat (In-Office)",
     responsibilities: [
       "Architected and deployed high-volume financial transaction processing service using Java 21 and Spring Boot 3.",
       "Engineered automated Stripe payment webhook handlers and Apple App Store receipt validation services.",
       "Optimized PostgreSQL query performance and connection pooling, reducing peak API p99 latency by 42%.",
-      "Designed zero-downtime CI/CD deployment pipeline using Docker, Nginx reverse proxy, and AWS EC2."
+      "Handled production deployment, monitoring, and troubleshooting across Linux/AWS environments using Docker, Nginx, systemd and Git."
     ],
-    technologies: ["Java 21", "Spring Boot", "Spring Security", "PostgreSQL", "Stripe API", "Docker", "AWS"],
+    technologies: ["Java 21", "Spring Boot", "Spring Security", "PostgreSQL", "Stripe API", "Docker", "AWS", "Firebase", "Nginx", "Linux"],
     achievements: [
       "Successfully processed over $12M in subscription revenue with zero transaction loss.",
       "Reduced system memory footprint by 35% through Virtual Threads (Project Loom) implementation."
     ]
-  },
-  {
-    company: "NextGen Mobility & SaaS",
-    position: "Backend Developer",
-    duration: "2021 - 2023",
-    location: "New York, NY",
-    responsibilities: [
-      "Built multi-tenant RESTful APIs for mobile and web applications serving 500k+ active users.",
-      "Implemented secure JWT authentication with refresh token rotation and Spring Security filter chains.",
-      "Integrated Firebase Cloud Messaging (FCM) for async push notification delivery with dead-letter queue retries.",
-      "Maintained Linux server instances, Nginx load balancing, and systemd service management."
-    ],
-    technologies: ["Java 17", "Spring Boot", "Spring Data JPA", "MySQL", "Redis", "Firebase", "Nginx", "Linux"],
-    achievements: [
-      "Scaled push notification pipeline to deliver 2M+ notifications daily under 200ms latency.",
-      "Refactored legacy monolith into modular Spring Boot starter services."
-    ]
-  },
-  {
-    company: "CloudData Solutions",
-    position: "Junior Java Developer",
-    duration: "2019 - 2021",
-    location: "Austin, TX",
-    responsibilities: [
-      "Developed backend CRUD services and database migration scripts using Liquibase and Hibernate.",
-      "Created automated integration test suites using JUnit 5, Testcontainers, and Mockito.",
-      "Collaborated with frontend engineering teams to define OpenAPI/Swagger API contracts."
-    ],
-    technologies: ["Java 11", "Spring Boot", "Hibernate", "PostgreSQL", "JUnit 5", "REST APIs", "Git"],
-    achievements: [
-      "Achieved 90%+ backend unit test coverage across 15 core microservices."
-    ]
   }
+  // {
+  //   company: "NextGen Mobility & SaaS",
+  //   position: "Backend Developer",
+  //   duration: "2021 - 2023",
+  //   location: "New York, NY",
+  //   responsibilities: [
+  //     "Built multi-tenant RESTful APIs for mobile and web applications serving 500k+ active users.",
+  //     "Implemented secure JWT authentication with refresh token rotation and Spring Security filter chains.",
+  //     "Integrated Firebase Cloud Messaging (FCM) for async push notification delivery with dead-letter queue retries.",
+  //     "Maintained Linux server instances, Nginx load balancing, and systemd service management."
+  //   ],
+  //   technologies: ["Java 17", "Spring Boot", "Spring Data JPA", "MySQL", "Redis", "Firebase", "Nginx", "Linux"],
+  //   achievements: [
+  //     "Scaled push notification pipeline to deliver 2M+ notifications daily under 200ms latency.",
+  //     "Refactored legacy monolith into modular Spring Boot starter services."
+  //   ]
+  // },
+  // {
+  //   company: "CloudData Solutions",
+  //   position: "Junior Java Developer",
+  //   duration: "2019 - 2021",
+  //   location: "Austin, TX",
+  //   responsibilities: [
+  //     "Developed backend CRUD services and database migration scripts using Liquibase and Hibernate.",
+  //     "Created automated integration test suites using JUnit 5, Testcontainers, and Mockito.",
+  //     "Collaborated with frontend engineering teams to define OpenAPI/Swagger API contracts."
+  //   ],
+  //   technologies: ["Java 11", "Spring Boot", "Hibernate", "PostgreSQL", "JUnit 5", "REST APIs", "Git"],
+  //   achievements: [
+  //     "Achieved 90%+ backend unit test coverage across 15 core microservices."
+  //   ]
+  // }
 ];
 
 export const skillsData = {
@@ -130,6 +130,7 @@ export const skillsData = {
   integrations: [
     { name: "Stripe SDK", level: "Advanced", icon: "💳" },
     { name: "Apple App Store", level: "Advanced", icon: "🍏" },
+    { name: "Google Play Billing", level: "Advanced", icon: "▶️" },
     { name: "Firebase (FCM)", level: "Advanced", icon: "🔥" },
     { name: "Google OAuth", level: "Advanced", icon: "🔐" },
     { name: "AI APIs (OpenAI)", level: "Advanced", icon: "🤖" },
@@ -148,19 +149,19 @@ export const projectsData = [
       "Personal finance & category budget tracking",
       "Stateless JWT Authentication with Role-Based Access Control",
       "Automated monthly subscription management",
-      "Stripe payment gateway integration for premium tiers",
+      "Connect your bank account and sync transactions automatically",
       "Apple App Store In-App Purchase receipt validation",
       "Automated transaction summary email notifications",
       "AI-powered financial insights and spending anomaly alerts"
     ],
-    technologies: ["Java 21", "Spring Boot", "Spring Security", "PostgreSQL", "Stripe API", "Apple App Store API", "OpenAI API", "Docker"],
+    technologies: ["Java 21", "Spring Boot", "Spring Security", "PostgreSQL", "Plaid API", "Apple App Store API", "AI API"],
     githubUrl: "https://github.com",
-    liveUrl: "https://demo.example.com/money-manager",
+    liveUrl: "https://themmanager.com/",
     highlightColor: "from-cyan-500/20 to-blue-500/20"
   },
   {
-    id: "challenges-platform",
-    title: "Challenges Platform",
+    id: "stepper",
+    title: "Stepper - Pedometer & Steps",
     badge: "High-Concurrency Social",
     description: "Gamified step-tracking and wellness competition backend supporting thousands of simultaneous step sync events, group leaderboards, and live notifications.",
     problemSolved: "Resolved high-concurrency database lock contention during daily step sync surges by implementing async Redis leaderboard queues.",
@@ -171,24 +172,26 @@ export const projectsData = [
       "Sub-millisecond real-time global leaderboards powered by Redis",
       "Firebase Cloud Messaging (FCM) push notification triggers for goal completion"
     ],
-    technologies: ["Java 21", "Spring Boot", "Redis", "Firebase FCM", "PostgreSQL", "Spring WebFlux", "Docker"],
+    technologies: ["Java 21", "Spring Boot", "Firebase FCM", "PostgreSQL", "Spring oauth2", "Docker"],
     githubUrl: "https://github.com",
-    liveUrl: "https://demo.example.com/challenges",
+    liveUrl: "https://play.google.com/store/apps/details?id=free.step.counter",
     highlightColor: "from-indigo-500/20 to-purple-500/20"
   },
   {
     id: "watchcert-ai",
     title: "WatchCert AI",
-    badge: "AI Document Engine",
-    description: "Asynchronous compliance and certificate validation pipeline leveraging AI computer vision models to audit engineering documents automatically.",
-    problemSolved: "Manual document compliance verification created a 48-hour audit backlog. WatchCert AI reduced processing time to under 3 seconds per document.",
+    badge: "AI Watch Authentication",
+    description: "AI-powered watch identification and authentication backend that turns photos into detailed reports, with multi-LLM fallback, async processing, and Stripe/Apple subscriptions.",
+    problemSolved: "Identifying and authenticating a watch normally needs an expert. WatchCert turns four photos into a structured report, and automatic model fallback keeps results flowing when an AI provider fails.",
     features: [
-      "AI-powered image & PDF report document processing",
-      "Asynchronous non-blocking Java Virtual Thread worker pool",
-      "External AI Vision API integration with circuit breaker fault tolerance",
-      "Containerized microservice architecture ready for Docker deployment"
+      "Watch identification from photos via a multi-LLM pipeline (Claude, Gemini, OpenAI) with automatic retry and fallback",
+      "Async report generation on a dedicated thread pool, with FCM push notifications on completion",
+      "Scheduled recovery job re-queues pending reports after restarts using images saved on disk",
+      "Stripe and Apple App Store subscriptions and credit packs with idempotent, event-logged webhooks",
+      "Google and Apple Sign-In with stateless JWT sessions",
+      "Apple Search Ads sync every 30 minutes with retry, backoff and PostgreSQL upserts"
     ],
-    technologies: ["Java 21", "Spring Boot", "OpenAI Vision API", "Virtual Threads", "Docker", "S3 Storage", "PostgreSQL"],
+    technologies: ["Java 21", "Spring Boot", "Spring Security", "JWT", "PostgreSQL", "Claude API", "Gemini API", "OpenAI API", "Stripe", "Apple App Store API", "Apple Search Ads API", "Firebase FCM", "Swagger/OpenAPI"],
     githubUrl: "https://github.com",
     liveUrl: "https://demo.example.com/watchcert",
     highlightColor: "from-emerald-500/20 to-teal-500/20"
@@ -213,7 +216,7 @@ export const architectureData = {
     },
     {
       step: "03",
-      title: "Spring Security / JWT",
+      title: "Spring Security / JWT / OAuth2",
       tech: "Filter Chain",
       desc: "Intercepts requests, validates Bearer JWT tokens, enforces RBAC roles, and blocks malicious traffic."
     },
@@ -240,7 +243,7 @@ export const architectureData = {
     { name: "Stripe", role: "Payment Processing & Webhooks", color: "text-indigo-400" },
     { name: "Firebase FCM", role: "Mobile Push Notifications", color: "text-amber-400" },
     { name: "AWS Infrastructure", role: "EC2, S3 Storage & Route53", color: "text-orange-400" },
-    { name: "AI APIs (OpenAI)", role: "Async Intelligent Document Auditing", color: "text-emerald-400" },
+    { name: "AI APIs (OpenAI, Gemini,CLAUDE)", role: "Async Intelligent Document Auditing", color: "text-emerald-400" },
     { name: "Apple App Store", role: "In-App Purchase Validation", color: "text-slate-300" },
     { name: "Email Services", role: "SMTP Transactional Mail Notifications", color: "text-cyan-400" }
   ]

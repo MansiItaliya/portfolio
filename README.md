@@ -1,6 +1,6 @@
 # Java Backend Developer Portfolio
 
-A modern, professional **single-page portfolio website for a Senior Java Backend Developer** built with **React.js (Frontend)** and **Java 21 / Spring Boot (Backend)**.
+A modern, professional **single-page portfolio website for a Java Backend Developer** built with **React.js (Frontend)** and **Java 21 / Spring Boot (Backend)**.
 
 ---
 
@@ -70,25 +70,31 @@ portfolio/
 ## 🚀 3. Local Development Setup
 
 ### Prerequisites
+
 - Node.js (v18+) & npm
 - JDK 21+ & Maven
 
 ### Running the Frontend
+
 ```bash
 cd portfolio/frontend
 npm install
 npm run dev
 ```
+
 The frontend will start at `http://localhost:5173`. API calls to `/api/*` are automatically proxied to `http://localhost:8080` via `vite.config.js`.
 
 ### Running the Backend
+
 ```bash
 cd portfolio/backend
 ./mvnw spring-boot:run
 ```
+
 The backend server will run on `http://localhost:8080`.
 
 You can test backend health at:
+
 ```bash
 curl http://localhost:8080/api/health
 ```
@@ -98,18 +104,22 @@ curl http://localhost:8080/api/health
 ## 📩 4. API Specification
 
 ### Submit Contact Form
+
 - **Endpoint**: `POST /api/contact`
 - **Content-Type**: `application/json`
 - **Request Body**:
+
 ```json
 {
   "name": "John Doe",
   "email": "john@example.com",
   "subject": "Job Opportunity",
-  "message": "I would like to discuss a senior Java backend role..."
+  "message": "I would like to discuss a Java backend role..."
 }
 ```
+
 - **Success Response (200 OK)**:
+
 ```json
 {
   "success": true,
@@ -117,7 +127,9 @@ curl http://localhost:8080/api/health
   "timestamp": "2026-10-02T15:00:00"
 }
 ```
+
 - **Validation Failure (400 Bad Request)**:
+
 ```json
 {
   "success": false,
@@ -134,21 +146,27 @@ curl http://localhost:8080/api/health
 ## 🌐 5. Production Deployment Guide (Ubuntu + Nginx + systemd)
 
 ### 1. Build the Frontend Static Bundle
+
 ```bash
 cd portfolio/frontend
 npm run build
 ```
+
 This generates production static files in `frontend/dist/`. Copy them to `/var/www/portfolio/frontend/dist`.
 
 ### 2. Package the Spring Boot Backend Jar
+
 ```bash
 cd portfolio/backend
 ./mvnw clean package -DskipTests
 ```
+
 This generates `target/portfolio-0.0.1-SNAPSHOT.jar`. Copy the jar to `/var/www/portfolio/backend/target/`.
 
 ### 3. Setup systemd Service
+
 Copy `portfolio-backend.service` to `/etc/systemd/system/`:
+
 ```bash
 sudo cp portfolio-backend.service /etc/systemd/system/
 sudo systemctl daemon-reload
@@ -157,7 +175,9 @@ sudo systemctl start portfolio-backend
 ```
 
 ### 4. Configure Nginx Single Domain Reverse Proxy
+
 Copy `nginx.conf` to `/etc/nginx/sites-available/portfolio.conf`:
+
 ```bash
 sudo cp nginx.conf /etc/nginx/sites-available/portfolio.conf
 sudo ln -s /etc/nginx/sites-available/portfolio.conf /etc/nginx/sites-enabled/

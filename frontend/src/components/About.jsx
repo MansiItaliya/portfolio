@@ -53,7 +53,7 @@ export default function About() {
                   "Stateless OAuth2 & JWT Security",
                   "PostgreSQL / MySQL Tuning",
                   "Spring Boot 3 & Virtual Threads",
-                  "Automated CI/CD Deployment",
+                  "Production Deployment",
                   "99.99% Production Uptime"
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-center gap-2 text-xs font-mono text-slate-300">
