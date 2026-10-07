@@ -135,7 +135,7 @@ export default function Contact() {
                     <div>
                       <div className="text-[11px] font-mono text-slate-400">GitHub Repository</div>
                       <a href={developerInfo.github} target="_blank" rel="noopener noreferrer" className="text-sm font-semibold text-white hover:text-cyan-300 transition-colors">
-                        github.com/developer
+                        github.com
                       </a>
                     </div>
                   </div>
@@ -147,7 +147,7 @@ export default function Contact() {
                     <div>
                       <div className="text-[11px] font-mono text-slate-400">LinkedIn Profile</div>
                       <a href={developerInfo.linkedin} target="_blank" rel="noopener noreferrer" className="text-sm font-semibold text-white hover:text-cyan-300 transition-colors">
-                        linkedin.com/in/developer
+                        linkedin.com
                       </a>
                     </div>
                   </div>
@@ -155,10 +155,10 @@ export default function Contact() {
               </div>
 
               {/* Endpoint Pipeline Spec */}
-              <div className="p-4 rounded-xl bg-cyan-950/30 border border-cyan-500/20 text-xs font-mono space-y-1 text-slate-300">
+              {/* <div className="p-4 rounded-xl bg-cyan-950/30 border border-cyan-500/20 text-xs font-mono space-y-1 text-slate-300">
                 <div className="text-cyan-400 font-semibold">API Pipeline Flow:</div>
                 <div>React Form &rarr; POST /api/contact &rarr; Spring Boot &rarr; Mail Dispatch</div>
-              </div>
+              </div> */}
 
             </div>
           </div>

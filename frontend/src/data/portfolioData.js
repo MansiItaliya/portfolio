@@ -12,7 +12,7 @@ export const developerInfo = {
   stats: [
     { label: "Years Experience", value: "1+" },
     { label: "Production Services", value: "3+" },
-    { label: "API Requests / Day", value: "10M+" },
+    { label: "API Requests / Day", value: "50k+" },
     { label: "Uptime Commitment", value: "99.99%" }
   ]
 };
@@ -59,14 +59,15 @@ export const experienceData = [
     duration: "2025 - Present",
     location: "Surat, Gujarat (In-Office)",
     responsibilities: [
-      "Architected and deployed high-volume financial transaction processing service using Java 21 and Spring Boot 3.",
-      "Engineered automated Stripe payment webhook handlers and Apple App Store receipt validation services.",
-      "Optimized PostgreSQL query performance and connection pooling, reducing peak API p99 latency by 42%.",
-      "Handled production deployment, monitoring, and troubleshooting across Linux/AWS environments using Docker, Nginx, systemd and Git."
+      "Architected and developed scalable, high-performance backend services using Java, Spring Boot, PostgreSQL, and MySQL.",
+      "Engineered payment and subscription ecosystems integrating Stripe, Apple App Store, and Google Play with robust webhook processing and lifecycle management.",
+      "Developed AI-powered backend workflows using Claude, Gemini, and OpenAI, implementing asynchronous processing, model fallback, scheduled recovery, and Firebase notifications.",
+      "Optimized database queries, background processing, and API performance while ensuring data consistency through idempotency, optimistic locking, and reliable error handling.",
+      "Managed production deployments, monitoring, and troubleshooting across Linux/AWS environments using Docker, Nginx, systemd, Git, and SSL."
     ],
     technologies: ["Java 21", "Spring Boot", "Spring Security", "PostgreSQL", "Stripe API", "Docker", "AWS", "Firebase", "Nginx", "Linux"],
     achievements: [
-      "Successfully processed over $12M in subscription revenue with zero transaction loss.",
+      "Successfully processed over $15k in subscription revenue with zero transaction loss.",
       "Reduced system memory footprint by 35% through Virtual Threads (Project Loom) implementation."
     ]
   }
@@ -193,7 +194,7 @@ export const projectsData = [
     ],
     technologies: ["Java 21", "Spring Boot", "Spring Security", "JWT", "PostgreSQL", "Claude API", "Gemini API", "OpenAI API", "Stripe", "Apple App Store API", "Apple Search Ads API", "Firebase FCM", "Swagger/OpenAPI"],
     githubUrl: "https://github.com",
-    liveUrl: "https://demo.example.com/watchcert",
+    liveUrl: "https://apps.apple.com/us/app/watchpoint-watch-check/id6775457953",
     highlightColor: "from-emerald-500/20 to-teal-500/20"
   }
 ];
@@ -252,7 +253,7 @@ export const architectureData = {
 export const productionCapabilities = [
   { title: "REST API Development", desc: "Designing clean, versioned, RESTful APIs following RFC specs and OpenAPI standards.", icon: "🌐" },
   { title: "Authentication & JWT", desc: "Stateless JWT auth, OAuth2 flows, password hashing, and Spring Security filters.", icon: "🔑" },
-  { title: "Database Design", desc: "Relational schema modeling, index optimization, execution plan analysis, and ORM caching.", icon: "💾" },
+  { title: "Database Design", desc: "Relational schema modeling, index optimization, execution plan analysis, and ORM caching.", icon: "🗄️" },
   { title: "Payment Integrations", desc: "Stripe payment intents, subscriptions, webhooks, and failure retries.", icon: "💳" },
   { title: "Subscription Systems", desc: "Handling tier upgrades, grace periods, dunning logic, and entitlement management.", icon: "🔄" },
   { title: "Email Notification Systems", desc: "Transactional HTML email dispatching using JavaMailSender with resilient fallback logging.", icon: "✉️" },
