@@ -1,6 +1,5 @@
-import React from 'react';
-import { developerInfo } from '../data/portfolioData';
 import { ArrowUp, Cpu, Github, Linkedin, Mail } from 'lucide-react';
+import { developerInfo } from '../data/portfolioData';
 
 export default function Footer() {
   const scrollToTop = () => {

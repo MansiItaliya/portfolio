@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Menu, X, Terminal, Cpu } from 'lucide-react';
+import { Cpu, Menu, Terminal, X } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
 const navItems = [
   { label: 'Home', href: '#home' },

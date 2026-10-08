@@ -1,6 +1,5 @@
-import React from 'react';
+import { Award, Briefcase, Calendar, ChevronRight, MapPin } from 'lucide-react';
 import { experienceData } from '../data/portfolioData';
-import { Briefcase, Calendar, MapPin, Award, ChevronRight } from 'lucide-react';
 
 export default function Experience() {
   return (

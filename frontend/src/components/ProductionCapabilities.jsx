@@ -1,6 +1,5 @@
-import React from 'react';
+import { ShieldCheck } from 'lucide-react';
 import { productionCapabilities } from '../data/portfolioData';
-import { ShieldCheck, Cpu, Terminal } from 'lucide-react';
 
 export default function ProductionCapabilities() {
   return (

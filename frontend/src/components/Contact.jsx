@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { AlertCircle, AtSign, CheckCircle2, Github, Linkedin, Loader2, Mail, MessageSquare, Send, Tag, User } from 'lucide-react';
+import { useState } from 'react';
 import { developerInfo } from '../data/portfolioData';
-import { Mail, Send, CheckCircle2, AlertCircle, Loader2, User, AtSign, MessageSquare, Tag, Github, Linkedin } from 'lucide-react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -189,7 +189,7 @@ export default function Contact() {
               )}
 
               <form onSubmit={handleSubmit} className="space-y-5">
-                
+                 
                 {/* Name & Email Fields */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <div className="space-y-1.5">

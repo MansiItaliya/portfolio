@@ -1,6 +1,5 @@
-import React from 'react';
+import { ArrowRight, Database, Github, Linkedin, Mail, Server, ShieldCheck, Terminal } from 'lucide-react';
 import { developerInfo } from '../data/portfolioData';
-import { ArrowRight, Github, Linkedin, Mail, Server, ShieldCheck, Database, Cpu, Terminal, Sparkles } from 'lucide-react';
 
 export default function Hero() {
   return (

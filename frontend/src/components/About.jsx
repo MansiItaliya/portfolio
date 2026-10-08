@@ -1,6 +1,5 @@
-import React from 'react';
+import { CheckCircle2, Cloud, Code, Database, Layers, Shield, Zap } from 'lucide-react';
 import { aboutData } from '../data/portfolioData';
-import { Code, Shield, Database, Cloud, Zap, Layers, CheckCircle2 } from 'lucide-react';
 
 const iconMap = {
   "Backend Development": Code,

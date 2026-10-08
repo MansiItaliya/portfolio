@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { CheckCircle, Cloud, Database, Layers, Server } from 'lucide-react';
+import { useState } from 'react';
 import { skillsData } from '../data/portfolioData';
-import { Server, Database, Cloud, Layers, CheckCircle } from 'lucide-react';
 
 const categoryConfig = [
   { id: 'backend', label: 'Backend Development', icon: Server, color: 'text-cyan-400', border: 'border-cyan-500/30' },

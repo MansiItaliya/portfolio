@@ -1,6 +1,5 @@
-import React from 'react';
+import { CheckCircle2, Cpu, ExternalLink, Github, ShieldAlert } from 'lucide-react';
 import { projectsData } from '../data/portfolioData';
-import { ExternalLink, Github, CheckCircle2, ShieldAlert, Cpu, Sparkles } from 'lucide-react';
 
 export default function Projects() {
   return (

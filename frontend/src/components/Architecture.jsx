@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { ArrowRight, Code2, Cpu, Network } from 'lucide-react';
+import { useState } from 'react';
 import { architectureData } from '../data/portfolioData';
-import { Network, Server, ArrowDown, ArrowRight, Layers, Database, ShieldCheck, Lock, ExternalLink, Cpu, Code2 } from 'lucide-react';
 
 export default function Architecture() {
   const [selectedNode, setSelectedNode] = useState(null);
