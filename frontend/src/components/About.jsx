@@ -1,5 +1,5 @@
-import { CheckCircle2, Cloud, Code, Database, Layers, Shield, Zap } from 'lucide-react';
-import { aboutData } from '../data/portfolioData';
+import { CheckCircle2, Cloud, Code, Database, Download, ExternalLink, FileText, Layers, Shield, Zap } from 'lucide-react';
+import { aboutData, developerInfo } from '../data/portfolioData';
 
 const iconMap = {
   "Backend Development": Code,
@@ -60,6 +60,40 @@ export default function About() {
                     <span>{item}</span>
                   </div>
                 ))}
+              </div>
+
+              {/* Resume Actions Bar */}
+              <div className="pt-6 border-t border-slate-800 flex flex-wrap items-center justify-between gap-4 bg-slate-900/40 p-4 rounded-xl border border-slate-800/60">
+                <div className="flex items-center gap-3">
+                  <div className="p-2.5 rounded-lg bg-cyan-500/10 border border-cyan-500/20 text-cyan-400">
+                    <FileText className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <div className="text-sm font-semibold text-white">Curriculum Vitae</div>
+                    <div className="text-xs text-slate-400">PDF • Verified Credentials</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2.5 w-full sm:w-auto">
+                  <a
+                    href="/resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg text-xs font-semibold bg-cyan-500/15 border border-cyan-500/40 text-cyan-300 hover:bg-cyan-500/25 transition-all duration-200"
+                    aria-label="View Resume in new tab"
+                  >
+                    <ExternalLink className="w-3.5 h-3.5" />
+                    View Resume
+                  </a>
+                  <a
+                    href="/resume.pdf"
+                    download="Mansi_Italiya_Resume.pdf"
+                    className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg text-xs font-semibold bg-slate-800 border border-slate-700 text-slate-200 hover:bg-slate-700/80 hover:text-white transition-all duration-200"
+                    aria-label="Download Resume"
+                  >
+                    <Download className="w-3.5 h-3.5 text-cyan-400" />
+                    Download
+                  </a>
+                </div>
               </div>
             </div>
           </div>

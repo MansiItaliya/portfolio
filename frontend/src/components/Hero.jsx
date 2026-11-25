@@ -1,4 +1,4 @@
-import { ArrowRight, Database, Github, Linkedin, Mail, Server, ShieldCheck, Terminal } from 'lucide-react';
+import { ArrowRight, Database, Download, ExternalLink, FileText, Github, Linkedin, Mail, Server, ShieldCheck, Terminal } from 'lucide-react';
 import { developerInfo } from '../data/portfolioData';
 
 export default function Hero() {
@@ -48,10 +48,10 @@ export default function Hero() {
           </div>
 
           {/* CTA Buttons & Social Links */}
-          <div className="flex flex-wrap items-center gap-4 pt-4 w-full sm:w-auto">
+          <div className="flex flex-wrap items-center gap-3 pt-4 w-full sm:w-auto">
             <a
               href="#projects"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-semibold text-sm bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 hover:-translate-y-0.5 transition-all duration-200"
+              className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl font-semibold text-sm bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 hover:-translate-y-0.5 transition-all duration-200"
             >
               View My Work
               <ArrowRight className="w-4 h-4" />
@@ -59,10 +59,31 @@ export default function Hero() {
 
             <a
               href="#contact"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-semibold text-sm bg-slate-900 border border-slate-800 text-slate-200 hover:bg-slate-800/80 hover:border-slate-700 hover:-translate-y-0.5 transition-all duration-200"
+              className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl font-semibold text-sm bg-slate-900 border border-slate-800 text-slate-200 hover:bg-slate-800/80 hover:border-slate-700 hover:-translate-y-0.5 transition-all duration-200"
             >
               <Mail className="w-4 h-4 text-cyan-400" />
               Contact Me
+            </a>
+
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl font-semibold text-sm bg-slate-900/90 border border-cyan-500/30 text-cyan-300 hover:bg-cyan-500/10 hover:border-cyan-400 hover:-translate-y-0.5 transition-all duration-200 shadow-sm"
+              aria-label="View Resume in new tab"
+            >
+              <ExternalLink className="w-4 h-4 text-cyan-400" />
+              View Resume
+            </a>
+
+            <a
+              href="/resume.pdf"
+              download="Mansi_Italiya_Resume.pdf"
+              className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl font-semibold text-sm bg-slate-900/90 border border-slate-800 text-slate-200 hover:bg-slate-800 hover:border-slate-700 hover:text-white hover:-translate-y-0.5 transition-all duration-200"
+              aria-label="Download Resume"
+            >
+              <Download className="w-4 h-4 text-cyan-400" />
+              Download Resume
             </a>
 
             <div className="flex items-center gap-3 pl-2 border-l border-slate-800">
